@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 
 export default function Event() {
   const [list,setList]=useState(false)
@@ -11,7 +11,7 @@ export default function Event() {
       <h1 style={{color:list?"red":"blue"}}>hello , here is Bhagyavi</h1>
       {list?
         <div>
-          <p>i am front end developer</p>
+          <p>I am front end developer</p>
         </div>
       :""}
     </div>
